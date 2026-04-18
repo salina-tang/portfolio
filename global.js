@@ -15,6 +15,7 @@ function $$(selector, context = document) {
 //   currentLink.classList.add('current');
 // }
 
+// navigation menu
 let pages = [
   { url: '', title: 'Home' },
   { url: 'projects/', title: 'Projects' },
@@ -38,6 +39,65 @@ for (let p of pages) {
     url = BASE_PATH + url;
   }
   
-  nav.insertAdjacentHTML('beforeend', `<a href="${url}">${title}</a>`);
+  let a = document.createElement('a');
+  a.href = url;
+  a.textContent = title;
+  nav.append(a);
+
+  if (a.host === location.host && a.pathname === location.pathname) {
+    a.classList.add('current');
+  }
+
+  if (a.host !== location.host) {
+    a.target = "_blank";
+  }
 }
 
+// light-dark theme
+document.body.insertAdjacentHTML(
+  'afterbegin',
+  `
+	<label class="color-scheme">
+		Theme:
+		<select>
+			<option value="light dark">Automatic</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+		</select>
+	</label>`,
+);
+
+const select = document.querySelector(".color-scheme select");
+
+if ("colorScheme" in localStorage) {
+  const scheme = localStorage.colorScheme;
+
+  document.documentElement.style.setProperty("color-scheme", scheme);
+  select.value = scheme;
+}
+
+select.addEventListener('input', function (event) {
+  console.log('color scheme changed to', event.target.value);
+  document.documentElement.style.setProperty('color-scheme', event.target.value);
+  localStorage.colorScheme = event.target.value;
+});
+
+// contacts email adjustment
+const form = document.querySelector("form");
+
+form?.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  let data = new FormData(form);
+  let url = form.action + "?";
+
+  for (let [name, value] of data) {
+    value = encodeURIComponent(value);
+
+    url += `${name}=${value}&`;
+
+    console.log(name, value);
+  }
+
+  location.href = url;
+});

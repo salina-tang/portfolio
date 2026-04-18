@@ -26,7 +26,7 @@ let pages = [
 
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"                  // Local server
-  : "/website/";         // GitHub Pages repo name
+  : "/portfolio/";         // GitHub Pages repo name
 
 let nav = document.createElement('nav');
 document.body.prepend(nav);
@@ -44,11 +44,7 @@ for (let p of pages) {
   a.textContent = title;
   nav.append(a);
 
-  if (
-    a.host === location.host &&
-    (a.pathname === location.pathname ||
-    a.pathname === "/portfolio/" && location.pathname === "/portfolio/index.html")
-  ) {
+  if (a.host === location.host && a.pathname === location.pathname) {
     a.classList.add('current');
   }
 

@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Recipe Ratings Analysis",
+        "year": "2025",
+        "image": "../images/recipes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus fuga maxime iure dolor, suscipit necessitatibus expedita dolorem ratione pariatur exercitationem optio incidunt tempore, facere neque non impedit officiis! Perferendis, sequi!"
+    },
+    {
+        "title": "DSC 80 Project 1",
+        "year": "2025",
+        "image": "../images/heatmap.png",
+        "description": "Officia, omnis! Neque quisquam explicabo quidem, harum necessitatibus cum nemo aspernatur, nisi asperiores recusandae beatae doloremque repellendus maiores ut similique. Quis quae voluptates, laborum reprehenderit numquam iusto at nam facilis?"
+    },
+    {
+        "title": "DSC 80 Project 2",
+        "year": "2025",
+        "image": "../images/boxplot.png",
+        "description": "Nulla asperiores cum ex error quisquam facilis, repellendus, perferendis corporis assumenda illo saepe esse enim voluptate aperiam. Error suscipit, eos nihil libero voluptas, quis laboriosam officia earum impedit fugit nulla."
+    },
+    {
+        "title": "Sit necessitatibus dolorem sed.",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Illum aspernatur laudantium saepe officia reprehenderit beatae et optio modi nobis labore. Dicta, numquam voluptate. Incidunt doloribus quo, asperiores quos possimus quae velit maxime magnam exercitationem perferendis temporibus ea culpa."
+    },
+    {
+        "title": "Perspiciatis dicta iusto saepe.",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Sed alias nulla cupiditate laudantium earum inventore aperiam iure tenetur doloribus quisquam obcaecati quidem et, omnis reiciendis dolorum officiis quis suscipit est ab nostrum nihil reprehenderit pariatur maxime. Eum, libero?"
+    },
+    {
+        "title": "Debitis blanditiis voluptatum accusamus.",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Perferendis nulla ad, repellendus eaque neque, dignissimos perspiciatis assumenda deserunt expedita ex eum modi sint atque odio, eos unde incidunt optio omnis quis illo. Facere quibusdam id molestiae aliquid quaerat."
+    },
+    {
+        "title": "Itaque animi odio dolores!",
+        "year": "2027",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Eaque aliquam necessitatibus, illum possimus voluptas est perferendis, voluptates eius molestiae esse similique rerum expedita quia. Molestiae accusantium maiores facilis, vero doloremque minima. Doloribus ullam ab inventore perspiciatis necessitatibus soluta."
+    },
+    {
+        "title": "Accusamus ullam facere perferendis!",
+        "year": "2027",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Qui itaque inventore aliquid vero maxime mollitia ipsum. Est assumenda laborum illo nam totam quo nostrum rem similique, voluptas ipsum accusamus aliquid praesentium? Consectetur quae sunt, cupiditate consequuntur neque distinctio!"
+    },
+    {
+        "title": "Eligendi necessitatibus aliquam commodi?",
+        "year": "2027",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Aperiam consequatur facere dolorum sunt molestias, adipisci, saepe ipsa fuga nam at beatae temporibus deleniti impedit magnam. Praesentium, numquam ratione obcaecati reprehenderit sit ex cum officia quas? Nesciunt, nam animi."
+    },
+    {
+        "title": "Distinctio soluta eum totam.",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Consequatur officia numquam quidem, magnam culpa magni obcaecati debitis dolores id fuga adipisci at, nostrum voluptate praesentium dolorem libero illo? Blanditiis porro perferendis, deleniti amet distinctio deserunt aut ipsam eligendi."
+    },
+    {
+        "title": "Temporibus iusto quis ipsa.",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Iusto cupiditate accusantium asperiores fugit doloremque beatae repellat consequatur commodi totam sed ex hic quos, nesciunt sit voluptatem facere doloribus suscipit reiciendis quibusdam sunt sint! Fugiat ea quod numquam ut."
+    },
+    {
+        "title": "Alias illum aut quasi!",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Molestias nostrum fugiat debitis omnis est? Harum earum et ipsam culpa accusamus provident esse doloremque eligendi vel quos laboriosam, dolores, officiis numquam itaque dignissimos atque sit modi quaerat debitis quisquam."
+    }
+]

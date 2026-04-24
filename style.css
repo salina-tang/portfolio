@@ -79,6 +79,13 @@ button {
   gap: 1em;
 }
 
+.projects img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 article {
   display: grid;
   grid-template-rows: subgrid;
@@ -155,4 +162,31 @@ section p {
 
 .resume > header p {
   margin: 0.2em 0;
+}
+
+#profile-stats {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  gap: 0.1rem;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #111;
 }

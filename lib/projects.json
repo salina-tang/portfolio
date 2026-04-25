@@ -2,19 +2,19 @@
     {
         "title": "Recipe Ratings Analysis",
         "year": "2025",
-        "image": "/portfolio/images/recipes.png",
+        "image": "https://salina-tang.github.io/portfolio/images/recipes.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit..."
     },
     {
         "title": "DSC 80 Project 1",
         "year": "2025",
-        "image": "/portfolio/images/heatmap.png",
+        "image": "https://salina-tang.github.io/portfolio/images/heatmap.png",
         "description": "Officia, omnis! Neque quisquam explicabo quidem..."
     },
     {
         "title": "DSC 80 Project 2",
         "year": "2025",
-        "image": "/portfolio/images/boxplot.png",
+        "image": "https://salina-tang.github.io/portfolio/images/boxplot.png",
         "description": "Nulla asperiores cum ex error quisquam facilis..."
     },
     {

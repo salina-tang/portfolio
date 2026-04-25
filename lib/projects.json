@@ -2,20 +2,20 @@
     {
         "title": "Recipe Ratings Analysis",
         "year": "2025",
-        "image": "../images/recipes.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus fuga maxime iure dolor, suscipit necessitatibus expedita dolorem ratione pariatur exercitationem optio incidunt tempore, facere neque non impedit officiis! Perferendis, sequi!"
+        "image": "/portfolio/images/recipes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit..."
     },
     {
         "title": "DSC 80 Project 1",
         "year": "2025",
-        "image": "../images/heatmap.png",
-        "description": "Officia, omnis! Neque quisquam explicabo quidem, harum necessitatibus cum nemo aspernatur, nisi asperiores recusandae beatae doloremque repellendus maiores ut similique. Quis quae voluptates, laborum reprehenderit numquam iusto at nam facilis?"
+        "image": "/portfolio/images/heatmap.png",
+        "description": "Officia, omnis! Neque quisquam explicabo quidem..."
     },
     {
         "title": "DSC 80 Project 2",
         "year": "2025",
-        "image": "../images/boxplot.png",
-        "description": "Nulla asperiores cum ex error quisquam facilis, repellendus, perferendis corporis assumenda illo saepe esse enim voluptate aperiam. Error suscipit, eos nihil libero voluptas, quis laboriosam officia earum impedit fugit nulla."
+        "image": "/portfolio/images/boxplot.png",
+        "description": "Nulla asperiores cum ex error quisquam facilis..."
     },
     {
         "title": "Sit necessitatibus dolorem sed.",

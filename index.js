@@ -9,7 +9,7 @@ renderProjects(latestProjects, projectsContainer, 'h2');
 
 const githubData = await fetchGitHubData('salina-tang');
 
-const profileStats = document.querySelector('#profile-stats');
+const profileStats = document.querySelector('#stats');
 if (profileStats) {
   profileStats.innerHTML = `
         <dl>

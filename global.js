@@ -37,7 +37,7 @@ for (let p of pages) {
   let title = p.title;
 
   if (!url.startsWith('http')) {
-    url = BASE_PATH + url;
+    url = new URL(url, location.origin + BASE_PATH).pathname;
   }
   
   let a = document.createElement('a');

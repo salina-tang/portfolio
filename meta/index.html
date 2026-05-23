@@ -22,6 +22,30 @@
         </label>
     </div>
 
+    <div id="stats"></div>
+
+    <div id="scrolly-1">
+        <div id="scatter-story">Descriptions of Commits:</div>
+        <div id="scatter-plot">
+            <h2>Commits by Time of Day</h2>
+            <div id="chart"></div>
+
+            <dl id="commit-tooltip" class="info tooltip" hidden>
+                <dt>Commit</dt>
+                <dd>
+                    <a href="" id="commit-link" target="_blank"></a>
+                </dd>
+
+                <dt>Date</dt>
+                <dd id="commit-date"></dd>
+            </dl>
+
+            <p id="selection-count">No Commits Selected</p>
+
+            <dl id="language-breakdown" class="stats"></dl>
+        </div>
+    </div>
+
     <dl id="files">
         <!-- we want the following structure for each file:
         <div>
@@ -32,26 +56,5 @@
         </div>
         -->
     </dl>
-
-    <div id="stats"></div>
-
-    <h2>Commits by Time of Day</h2>
-    <div id="chart"></div>
-
-    <dl id="commit-tooltip" class="info tooltip" hidden>
-        <dt>Commit</dt>
-        <dd>
-            <a href="" id="commit-link" target="_blank"></a>
-        </dd>
-
-        <dt>Date</dt>
-        <dd id="commit-date"></dd>
-
-        <!-- Add: Time, author, lines edited -->
-    </dl>
-
-    <p id="selection-count">No Commits Selected</p>
-
-    <dl id="language-breakdown" class="stats"></dl>
 </body>
 </html>
